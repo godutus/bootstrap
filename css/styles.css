@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0;
+}
+
+h1 {
+    color: seashell;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+
+}
+
+#title {
+    background-color:#0a043c;
+    height: fit-content;
+}
+.container-fluid {
+    padding: 3% 7% 6%;
+    /* padding-bottom: 6%; */
+}
+
+.align-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-color {
+    color: aliceblue;
+}
+
+.head-img {
+    width: 45%;
+    border-radius: 30%;
+    position: absolute;
+}
+
+.dropdown-background {
+    background-color: #0a043c;
+}
+
+.lgt-btn {
+    background-color: #0a043c;
+    color: white;
+    margin: 3% 2%;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 3.5rem;
+    /* position: fixed; */
+}
+
+.nav-link {
+    padding: 0 34px;
+    font-size: large;
+}
+
+.rotated {
+    transform: rotate(10deg);
+}
+
+#features {
+    padding: 7% 13%;
+    background-color: #03506f;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 0 5%;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+p {
+    line-height: 2;
+}
+
+.mrgn {
+    margin-bottom: 7%;
+    color: #bbdfc8;
+}
+
+.mrgn:hover {
+    color: #0a043c;
+}
+
+#testimonials {
+    background-color: #a3ddcb;
+    text-align: center;
+    color: #0a043c;
+}
+
+.testimonial-img {
+    width: 40%;
+    border-radius: 30%;
+}
+
+.carousel-item {
+    padding: 7% 13%;
+}
+
+#cards {
+    background-color: #ffe3de;
+    color: #0a043c;
+    padding: 2%;
+    text-align: center
+}
+
+.card-d {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card {
+    background-color: #ffe3de;
+    border: none;
+}
+
+#footer {
+    background-color: #0a043c;
+    padding: 5% 5% 10%;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.ico {
+    padding: 0 0.2%;
+    margin: 0 0.2%;
+}
+
+.mrg {
+    color: #03506f;
+
+}
+
+.mrg:hover {
+    color: #ffe3de;
+}
+
+.foot {
+    text-decoration: none;
+    color: white;
+}
+
+.foot:hover {
+    color: #ffe3de;
+}
+@media (max-width: 767px) {
+    .head-img {
+        position: static;
+        width: 75%;
+        border-radius: 30%;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
